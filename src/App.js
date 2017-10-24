@@ -32,7 +32,7 @@ class App extends Component {
     render() {
         return (
             <Admin
-                title="Posters Galore Admin"
+                title="Managing panel"
                 restClient={restClient}
                 customReducers={{ theme: themeReducer }}
                 //customSagas={sagas}
